@@ -1,159 +1,173 @@
 <!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="utf-8" />
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>TintoBlanco</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65" crossorigin="anonymous" />
-    <link rel="stylesheet" href="./styles/estilos.css" />
-</head>
-
-</html>
-
-<body class="text-bg-dark">
+    <title>Contacto - Gala ♥ Cat Café</title>
+    <!-- SEO-->
+    <meta name="description" content="A través de esta página podrás contactarte con Gala ♥ Cat Café para dejarnos tus dudas y comentarios.">
+    <meta name="keywords" content="café, gatos, cat café, buenos aires, cultura japonesa, contacto">
+    <!-- Bootstrap-->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+    <!--Fuentes y CSS puro-->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tajawal:wght@200;300;400;500;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./scss/styles.css" />
+  </head>
+  <body class="fondo">
+  <!--Menú-->
+  <nav class="navbar navbar-expand-lg sticky-top p-3 menu">
     <div>
-        <header>
-            <nav class="navbar navbar-expand-lg bg-light">
-                <div class="container-fluid">
-                    <a class="navbar-brand" href="./index.html">TintoBlanco</a>
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
-                        data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
-                        aria-label="Toggle navigation">
-                        <span class="navbar-toggler-icon"></span>
-                    </button>
-                    <div class="collapse navbar-collapse" id="navbarNavDropdown">
-                        <ul class="navbar-nav">
-                            <li class="nav-item">
-                                <a class="nav-link active" aria-current="page" href="./index.html">Inicio</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./nosotros.html">Nosotros</a>
-                            </li>
-                            <li class="nav-item">
-                                <a class="nav-link" href="./contacto.html">Contacto</a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                                    aria-expanded="false">
-                                    Productos
-                                </a>
-                                <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="./vinos.html">Vinos</a></li>
-                                    <li><a class="dropdown-item" href="./alimentos.html">Alimentos</a></li>
-                                </ul>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </header>
-        <main>
-            <section class="container-fluid">
-                <div class="text-center p-5">
-                    <h2>Contacto</h2>
-                </div>
-                <div class="row gap-4 gap-md-0">
-                    <div class="col-md-6">
-                        <h4>Información de contacto</h4>
-                        <div class="accordion" id="accordionExample">
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingOne">
-                                    <button class="accordion-button" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                                        Teléfono
-                                    </button>
-                                </h2>
-                                <div id="collapseOne" class="accordion-collapse collapse show"
-                                    aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        123456767
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingTwo">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                                        Dirección
-                                    </button>
-                                </h2>
-                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo"
-                                    data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        adress: 150 5th Ave, New York, NY 10011, EE. UU.
-                                    </div>
-                                </div>
-                            </div>
-                            <div class="accordion-item">
-                                <h2 class="accordion-header" id="headingThree">
-                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-                                        data-bs-target="#collapseThree" aria-expanded="false"
-                                        aria-controls="collapseThree">
-                                        Correo electrónico
-                                    </button>
-                                </h2>
-                                <div id="collapseThree" class="accordion-collapse collapse"
-                                    aria-labelledby="headingThree" data-bs-parent="#accordionExample">
-                                    <div class="accordion-body">
-                                        1234567@gmail.com
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <h4>Envianos un mensaje</h4>
-                        <form>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">Nombre</label>
-                                <input type="text" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Ingresá tu nombre">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlInput1" class="form-label">E-mail</label>
-                                <input type="email" class="form-control" id="exampleFormControlInput1"
-                                    placeholder="Ingresá tu e-mail">
-                            </div>
-                            <div class="mb-3">
-                                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
-                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
-                            </div>
-                            <div class="mb-3 form-check">
-                                <input type="checkbox" class="form-check-input" id="exampleCheck1">
-                                <label class="form-check-label" for="exampleCheck1">Verificacion</label>
-                            </div>
-                            <button type="submit" class="btn btn-primary">Enviar</button>
-                        </form>
-                    </div>
-                </div>
-                <div class="row container-flud p-5">
-                    <iframe
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d162609.46799919644!2d-73.89225450916138!3d40.7729023681899!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sar!4v1670528411978!5m2!1ses-419!2sar"
-                        width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
-                        referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-            </section>
-            <footer class="d-flex justify-content-center bg-light text-bg-light p-5">
-                <div class="footer_contact">
-                    <h4>Contact information</h4>
-                    <p>cel: 123456767</p>
-                    <p>mail: 1234567@gmail.com</p>
-                    <p>adress: 150 5th Ave, New York, NY 10011, EE. UU.</p>
-                </div>
-                <div>
-                    <h4>social networks</h4>
-                    <a href="#"><img src="./img/facebook.png" width="40" height="40" /></a>
-                    <a href="#"><img src="./img/instagram.png" width="40" height="40" /></a>
-                    <a href="#"><img src="./img/whatsapp.png" width="40" height="40" /></a>
-                </div>
-            </footer>
-        </main>
+      <a class="navbar-brand link" href="./index.html">♥</a>
     </div>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
-        integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
-        crossorigin="anonymous"></script>
-</body>
-
+    <button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link link" href="./reservas.html">Reservas</a></li>
+        <li class="nav-item">
+          <a class="nav-link link" href="./contacto.html">Contacto</a></li>
+        <li class="nav-item">
+          <a class="nav-link link" href="./faq.html">Preguntas frecuentes</a></li>
+        <li class="nav-item">
+          <a class="nav-link link" href="./nuestros-gatos.html">Nuestros gatos</a></li>
+        <li class="nav-item">
+          <a class="nav-link link" href="./historia.html">Historia</a></li>
+        </ul>
+        <form class="form-inline my-2 my-lg-0">
+          <input class="form-control mr-sm-2" type="search" placeholder="¿Qué buscas?" aria-label="Search">
+          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+        </form>
+    </div>
+  </nav>
+<!--Header-->
+    <header>
+      <div>
+        <div class="d-flex justify-content-center">
+          <a title="Home" href="./index.html"
+            ><img
+              class="img-fluid logo"
+              src="./media/logo.png"
+              alt="Logo de la página"
+          /></a>
+        </div>
+      </header>
+      <h2 class="text-center mt-3 titulo">Gala ♥ Cat Café</h2>
+    </div>
+<!--Formulario-->
+  <div class="container-fluid">
+    <div class="row d-flex justify-content-around">
+      <h2 class="col-md-12 text-center h3 font-italic font-weight-normal mt-3">Formulario de contacto</h2>
+    <p class="col-md-12 text-center descripcion-contacto alineacion-texto-mobile">
+      A través de este formulario vas a poder hacernos llegar tus dudas,
+      sugerencias y comentarios. Tu opinión es importante para nosotros, ¡te
+      leemos!
+    </p>
+  <form class="formulario">
+    <div class="form-group">
+      <label for="formGroupExampleInput">Nombre</label>
+      <input type="text" class="form-control" id="formGroupExampleInput" placeholder="Tu nombre">
+    </div>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Dirección de correo electrónico</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="E-mail">
+      <small id="emailHelp" class="form-text text-muted">Nunca vamos a compartir tu correo con nadie</small>
+    </div>
+    <div class="form-group">
+      <label for="exampleFormControlTextarea1">Consulta</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <div class="d-flex justify-content-center">
+      <button type="submit" class="btn btn-primary">Enviar</button>
+    </div>
+  </form>
+    </div>
+  </div>
+<!-- Botón WhatsApp -->
+<a href="https://api.whatsapp.com/send?phone=+541130797690" class="float" target="_blank">
+  <i class="fa fa-whatsapp my-float"></i>
+  </a>
+<!-- Footer -->
+    <footer class="page-footer pt-3 mt-5 footer-media contenido-footer">
+      <div class="container-fluid text-center text-md-left">
+        <div class="row">
+          <div class="col-md-4 mt-md-0 mt-4 text-center contenido-footer">
+            <h6 class="text-uppercase">Gala ♥ Cat Café</h6>
+            <p>Av. Corrientes 4422 - CABA</p>
+            <p>Lunes a viernes de 10hs a 20hs</p>
+            <a class="underline link" href="mailto:galacatcafe@gmail.com"
+              >galacatcafe@gmail.com</a
+            >
+          </div>
+          <div class="col-md-4 mb-md-0 mb-3 text-center mt-2 contenido-footer">
+            <h6>Redes sociales</h6>
+              <a href="https://www.instagram.com/"
+              ><img
+                class="contenido-footer-redes"
+                src="./media/instagram.png"
+                target="_blank"
+                alt="Instagram"
+            /></a>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img class="contenido-footer-redes" src="./media/facebook.png" alt="Facebook"
+            /></a>
+            <a href="https://twitter.com/?lang=es" target="_blank"
+              ><img class="contenido-footer-redes" src="./media/twitter.png" alt="Twitter"
+            /></a>
+          </div>
+          <div class="col-md-4 mb-md-0 mb-3 text-center mt-2 contenidoFooter">
+            <h6>Métodos de pago</h6>
+            <img
+                class="contenido-footer-pago"
+                src="./media/mercadoPago.png"
+                alt="Mercado Pago"
+            />
+            <img class="contenido-footer-pago" src="./media/visa.png" alt="Visa"
+            />
+            <img class="contenido-footer-pago" src="./media/mastercard.png" alt="Mastercard"
+            />
+          </div>
+        </div>
+      </div>
+      <div class="footer-copyright text-center py-3 contenido-footer">
+        © 2021 Copyright:
+        <a class="contenido-footer creditos" href="https://github.com/maisp"
+          >Maitena Sipis - Coderhouse</a
+        >
+      </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+  </body>
 </html>
